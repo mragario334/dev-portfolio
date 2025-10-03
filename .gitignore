@@ -1,0 +1,70 @@
+# ========================================
+# Global
+# ========================================
+.DS_Store
+Thumbs.db
+*.log
+*.sqlite
+*.sqlite3
+*.env
+*.env.local
+*.env.*.local
+
+# ========================================
+# Node / JavaScript / React / Expo
+# ========================================
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+**/npm-debug.log*
+**/expo/.expo/
+**/.expo/
+
+# React Native / Expo
+**/android/
+**/ios/
+**/.gradle/
+**/.idea/
+**/.vscode/
+*.iml
+
+# ========================================
+# PHP
+# ========================================
+**/vendor/
+**/.phpunit.result.cache
+**/*.cache
+**/*.session
+*.phar
+
+# ========================================
+# Java
+# ========================================
+**/bin/
+**/build/
+**/*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# ========================================
+# Images / Media (optional, but useful if auto-generated)
+# ========================================
+**/assets/*.png
+**/assets/*.jpg
+**/assets/*.jpeg
+**/assets/*.gif
+**/assets/*.ico
+**/assets/*.svg
+
+# ========================================
+# IDE / Editor
+# ========================================
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
